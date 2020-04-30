@@ -1,0 +1,43 @@
+<DOCTYPE !html>
+<html>
+<meta charset="UTF-8">
+	<title>Zusatzleistungen</title>
+	<link rel = "stylesheet" href="stylesheet.css" type="text/css">
+<head>
+<body style="background-color:#20211c">
+	<header>
+	<nav>
+			<img src="raklogo-transparent_header.jpg" alt="Logo" width="450" height="80">
+			<div class="dropdown">
+			<button>
+				<div class="container" onclick="myFunction(this)">
+				<p><strong>Menü</p>
+				<div class="container" onclick="myFunction(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+			<script> function myFunction(x){
+				x.classList.toggle("change");
+			}
+			</script></button>
+			<ul>
+			<li><a href="rak_zusatzleistungen.html" >Informationen</a></li>
+			<li><a href="kompetenz_ov.html" >Kursübersicht Kompetenz Plus</a></li>
+			<li><a href="zusatz_ov.html" >Kursübersicht Zusatzqualifikation</a></li>
+			<li><a href="anmeldung.html" >Vertragsbedingungen</a></li>
+			<li><a href="preise.html" >Preise</a></li>
+			</ul>
+			</div>
+			<script
+					src="https://code.jquery.com/jquery-3.4.1.js"></script>
+					<script type="text/javascript">
+					$(document).ready(function(){
+					$("button").click(function(){
+					$("nav ul").toggleClass("active");});});
+				</script>
+		</nav>
+		</header>
+		</body>
+		</head>
+		</html>
