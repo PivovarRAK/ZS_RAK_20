@@ -1,0 +1,135 @@
+.header{
+	background: #20211c;
+}
+.nav{
+	padding-top:10px;
+	font-family:calibri;
+
+}
+nav ul{
+	position:absolute;
+	color:#29B08E;
+	margin:0;
+	padding:0;
+	width:wrap_content;
+	transform-origin:top;
+	transform: perspective(1000px) rotateX(-90deg);
+	transition:0.5s;
+
+}
+nav ul.active{
+	transform: perspective(1000px) rotateX(0deg);
+}
+
+nav ul li{
+list-style:none;
+color:#29B08E;
+
+background-color: #29B08E;
+}
+.dropdown{
+	display: inline;
+	padding-right:10px;
+}
+
+nav ul li a{
+	display: block;
+	color:white;
+font-family:calibri;
+font-weight:lighter;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+.inhalt{
+	color:white;
+	font-family:calibri;
+	font-weight:lighter;
+	font-size:14;
+}
+
+.inhalt h2{
+	font-size:15px;
+}
+.uberschrift{
+	color:#CB4048;
+	font-family:calibri;
+}
+.uberschrift h1{
+	font-size:22px;
+}
+button{
+	font-family:tahoma;
+	color:white;
+	position:relative;
+	width:wrap_content;
+	height:wrap_content;
+	front-size:24px;
+	background:#20211c;
+	border: 2px;
+	border-color:white;
+	box-shadow: none;
+	outline: none;
+
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+.containersozialemedien{
+	font-family:tahoma;
+	text-align: middle;
+	text-decoration: none;
+	color:white;
+	font-size:11px;
+	display: inline-block;
+  cursor: pointer;
+}
+
+
+.kurstabellen table{
+	color:white;
+	font-family:calibri;
+
+}
+.kurstabellen th{
+	color:#CB4048;
+	padding-bottom:10px;
+	text-align:center;
+}
+.kurstabellen td{
+	padding-bottom:10px;
+}
+.ubersichttabelle{
+	font-family:calibri;
+}
+.ubersichttabelle a{
+	color:#29B08E;
+	font-family:calibri;
+}
+h1{
+
+}
